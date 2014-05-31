@@ -10,9 +10,6 @@
 
 Claim responsibility for shoveling out a fire hydrant after it snows.
 
-## Screenshot
-![Adopt-a-Hydrant](https://github.com/codeforamerica/adopt-a-hydrant/raw/master/screenshot.png "Adopt-a-Hydrant")
-
 ## Demo
 You can see a running version of the application at
 [http://adopt-a-hydrant.herokuapp.com/][demo].
@@ -20,12 +17,17 @@ You can see a running version of the application at
 [demo]: http://adopt-a-hydrant.herokuapp.com/
 
 ## Installation
-This application requires [Postgres](http://www.postgresql.org/) to be installed
+This application requires [Postgres](http://www.postgresql.org/) to be installed. If you're using homebrew, the following will work:
+
+    brew install postgresql
+    brew services start postgresql
+    
+Install the rest of the application with the following
 
     git clone git://github.com/codeforamerica/adopt-a-hydrant.git
     cd adopt-a-hydrant
     bundle install
-
+    
     bundle exec rake db:create
     bundle exec rake db:schema:load
 
