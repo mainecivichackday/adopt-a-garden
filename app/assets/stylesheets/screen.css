@@ -169,6 +169,7 @@ a.btn {
 
 .sidebar #feedback {
   margin-top: 5px;
+  clear:both;
 }
 
 .map-container {
