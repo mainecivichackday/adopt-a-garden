@@ -1,20 +1,12 @@
-# Adopt-a-Hydrant
+# Adopt-a-Garden
 
-[![Build Status](http://img.shields.io/travis/codeforamerica/adopt-a-hydrant.svg)][travis]
-[![Dependency Status](http://img.shields.io/gemnasium/codeforamerica/adopt-a-hydrant.svg)][gemnasium]
-[![Coverage Status](http://img.shields.io/coveralls/codeforamerica/adopt-a-hydrant.svg)][coveralls]
-
-[travis]: http://travis-ci.org/codeforamerica/adopt-a-hydrant
-[gemnasium]: https://gemnasium.com/codeforamerica/adopt-a-hydrant
-[coveralls]: https://coveralls.io/r/codeforamerica/adopt-a-hydrant
-
-Claim responsibility for shoveling out a fire hydrant after it snows.
+Claim responsibility for a garden location in the city.
 
 ## Demo
 You can see a running version of the application at
-[http://adopt-a-hydrant.herokuapp.com/][demo].
+[http://actual.url.here/please/][demo].
 
-[demo]: http://adopt-a-hydrant.herokuapp.com/
+[demo]: http://actual.url.here/please
 
 ## Installation
 This application requires [Postgres](http://www.postgresql.org/) to be installed. If you're using homebrew, the following will work:
@@ -24,8 +16,8 @@ This application requires [Postgres](http://www.postgresql.org/) to be installed
     
 Install the rest of the application with the following
 
-    git clone git://github.com/codeforamerica/adopt-a-hydrant.git
-    cd adopt-a-hydrant
+    git clone git@github.com:mainecivichackday/adopt-a-garden.git
+    cd adopt-a-garden
     bundle install
     
     bundle exec rake db:create
@@ -80,7 +72,7 @@ variables:
     heroku config:set GOOGLE_ANALYTICS_ID=your_id
     heroku config:set GOOGLE_ANALYTICS_DOMAIN=your_domain_name
 
-An example ID is `UA-12345678-9`, and an example domain is `adoptahydrant.org`.
+An example ID is `UA-12345678-9`, and an example domain is `adoptagarden.org`.
 
 ## Contributing
 In the spirit of [free software][free-sw], **everyone** is encouraged to help
@@ -103,8 +95,8 @@ Here are some ways *you* can contribute:
 * by reviewing patches
 * [financially][]
 
-[locales]: https://github.com/codeforamerica/adopt-a-hydrant/tree/master/config/locales
-[issues]: https://github.com/codeforamerica/adopt-a-hydrant/issues
+[locales]: https://github.com/mainecivichackday/adopt-a-garden/tree/master/config/locales
+[issues]: https://github.com/mainecivichackday/adopt-a-garden/issues
 [financially]: https://secure.codeforamerica.org/page/contribute
 
 ## Submitting an Issue
@@ -151,8 +143,4 @@ time of a major release, support for that Ruby version may be dropped.
 ## Copyright
 Copyright (c) 2014 Code for America. See [LICENSE][] for details.
 
-[license]: https://github.com/codeforamerica/adopt-a-hydrant/blob/master/LICENSE.md
-
-[![Code for America Tracker](http://stats.codeforamerica.org/codeforamerica/adopt-a-hydrant.png)][tracker]
-
-[tracker]: http://stats.codeforamerica.org/projects/adopt-a-hydrant
+[license]: https://github.com/mainecivichackday/adopt-a-garden/blob/master/LICENSE.md
