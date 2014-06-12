@@ -4,9 +4,9 @@ Claim responsibility for a garden location in the city.
 
 ## Demo
 You can see a running version of the application at
-[http://actual.url.here/please/][demo].
+[http://adoptagarden.me/][demo].
 
-[demo]: http://actual.url.here/please
+[demo]: http://adoptagarden.me/
 
 ## Installation
 This application requires [Postgres](http://www.postgresql.org/) to be installed. If you're using homebrew, the following will work:
